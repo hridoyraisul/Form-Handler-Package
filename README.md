@@ -3,7 +3,7 @@
 This package will take four type of input like text, checkbox, input & dropdown. Then store them into database.
 
 -------------------------------------------
-## Instructions----------------------------
+## Instructions
 
 ###### Run Command: 
 composer require hridoyraisul/formhandler
