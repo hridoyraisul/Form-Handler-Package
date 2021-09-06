@@ -1,0 +1,22 @@
+{
+    "name": "hridoyraisul/formhandler",
+    "description": "This package will take four type of input like text, checkbox, input & dropdown. Then store them into database.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raisul Hridoy",
+            "email": "raisulhridoy@hotmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RaisulHridoy\\FormHandler\\": "src/"
+        },
+        "files": [
+            "src/Helpers/NameValidate.php"
+        ]
+    }
+}
