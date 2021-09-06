@@ -6,15 +6,19 @@ This package will take four type of input like text, checkbox, input & dropdown.
 ## Instructions
 
 ###### Run Command: 
-composer require hridoyraisul/formhandler
+" composer require hridoyraisul/formhandler "
 
-###### Run Migration:
-php artisan migrate
+###### Provider Decleration
+Add "RaisulHridoy\FormHandler\FormHandleServiceProvider::class" to providers array in config/app.php file
 
 ###### Optimize Laravel App
 php artisan optimize
 
-Done !!!
+###### Run Migration:
+php artisan migrate
+
+
+Done !!! Now Run the server.
 
 ###### Browse URL: http://127.0.0.1:8000/form
 
